@@ -12,8 +12,8 @@ import android.os.*;
 import android.content.*;
 public class MainActivity extends AndroidApplication implements AdsController {
     
-	private static final String BANNER_AD_UNIT_ID = "ca-app-pub-3051618564940531/2998847800";
-	private final int SHOW_ADS = 1;
+    private static final String BANNER_AD_UNIT_ID = "";	
+    private final int SHOW_ADS = 1;
     private final int HIDE_ADS = 0;
     protected AdView advAds;
     protected View gameView;
